@@ -1,0 +1,39 @@
+.hero-container {
+    height: 90vh;
+    // background: rgb(12,39,19);
+    // background: linear-gradient(90deg, rgba(12,39,19,1) 0%, rgba(31,72,41,1) 41%, rgba(82,188,104,1) 73%, rgba(153,220,166,1) 100%);
+    background: rgb(153,220,166);
+background: linear-gradient(90deg, rgba(153,220,166,1) 0%, rgba(82,188,104,1) 11%, rgba(63,168,85,1) 37%, rgba(63,168,85,1) 60%, rgba(82,188,104,1) 85%, rgba(153,220,166,1) 100%);
+    color: #fff;
+    position: relative;
+
+}
+
+.imgMe {
+    width: 280px;
+    filter: contrast(0.9);
+    filter: brightness(0.8);
+}
+.imgMeContainer {
+    background-color: #fff;
+    border-radius: 50% 50%;
+    overflow: hidden;
+    box-shadow: -1px 9px 27px 4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 9px 27px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 9px 27px 4px rgba(0,0,0,0.75);
+}
+
+.secondaryText {
+    color: #000;
+    font-size: 29px;
+}
+
+.myName {
+    font-size: 45px;
+}
+
+.saludo {
+    color: #000;
+    font-size: 36px;
+    font-weight: bold;
+}
