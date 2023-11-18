@@ -6,8 +6,8 @@ const About = () => {
     <>
         <div className='container py-5 my-3'>
         <h2>Sobre Mi</h2>
-            <div className="row d-flex justify-content-center">
-                <div className="col-6 px-5">
+            <div className="row d-flex justify-content-between">
+                <div className="col-5">
 
                     <h4 className='pt-3'>¿Quien soy?</h4>
                     <h4>Soy Juan Pablo Salomón, Deasarrollador Web Fullstack</h4>
@@ -18,7 +18,7 @@ const About = () => {
                     </p>
                     <Button>Descargar CV</Button>
                 </div>
-                <div className="col-6 px-5 d-flex flex-column justify-content-center">
+                <div className="col-5 d-flex flex-column justify-content-center">
                     <h4>Mis Skills:</h4>
                     <div className='d-flex flex-wrap gap-2 justify-content-center mt-4'>
                         <div className='text-center'>

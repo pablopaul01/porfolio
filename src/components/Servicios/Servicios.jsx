@@ -8,7 +8,7 @@ import { RxUpdate } from "react-icons/rx";
 const Servicios = () => {
   return (
     <section className='px-5 py-5 servicesContainer'>
-        <div className='container'>
+        <div className='container pt-3'>
             <h2 className='titleServices'>Servicios</h2>
             <h5>Servicios que ofrezco a mis clientes</h5>
             <div className="row">
