@@ -9,7 +9,7 @@ const Proyectos = () => {
             <h2>Proyectos</h2>
             <h5>Aqui puedes ver algunos de los proyectos en los que trabajé</h5>
             </div>
-            <div className="col d-flex justify-content-around pb-4">
+            <div className="col d-flex justify-content-around py-5 flex-wrap gap-3">
                 
             <CardProject 
                 title={'ArgenCast'} 
@@ -29,7 +29,7 @@ const Proyectos = () => {
                 title={'Rolling Hotel'} 
                 text={' Aplicativo web para Hoteles, con gestion de administracion de categorias de habitaciones y numeros de habitaciones. Con sistema de reservas para clientes.'}
                 site={'https://rolling-hotel.netlify.app/'}
-                repo={'https://github.com/pablopaul01/Hotel-Frontend'}
+                repo={'https://github.com/pablopaul01/Rolling-Hotel'}
                 img={'https://res.cloudinary.com/dcv6aut2v/image/upload/v1700350011/Porfolio/Hotel_vbw0ro.png'}
             />
             </div>

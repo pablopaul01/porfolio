@@ -36,7 +36,7 @@ const Servicios = () => {
                         <div className='text-center cardServices'>
                             <RxUpdate className='iconServices'/>
                             <h5 className='titleServices'>Dinámico</h5>
-                            <p>Retener a los usuarios es crucial para mejorar las conversiones. Una alta performance del sitio seducen y retienen a los usuarios.</p>
+                            <p>Transforma tu web con dinamismo interactivo y experiencias cautivadoras.</p>
                         </div>
                     </div>
                 </div>
