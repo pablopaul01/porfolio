@@ -102,13 +102,19 @@ const Contacto = () => {
                 <div className="col-6 d-flex flex-column justify-content-start">
                     <h5 className='mb-4'>Otros medios de contacto:</h5>
                     <div className='subtitleBlack'>
-                        <p><FaLinkedin className='contactIcons'/>&nbsp; /juanpablosalomon</p>
+                        <a href="https://www.linkedin.com/in/juanpablosalomon/" target='blank' className='linkContacto'>
+                            <p><FaLinkedin className='contactIcons'/>&nbsp; /juanpablosalomon</p>
+                        </a>
                     </div>
                     <div className='subtitleBlack'>
-                        <p><MdEmail className='contactIcons'/>&nbsp; juanpablosalomon@gmail.com</p>
+                        <a href="mailto:juanpablosalomon@gmail.com" target='blank' className='linkContacto'>
+                            <p><MdEmail className='contactIcons'/>&nbsp; juanpablosalomon@gmail.com</p>
+                        </a>
                     </div>
-                    <div className='subtitleBlack'>
-                        <p> <FaWhatsapp className='contactIcons'/>&nbsp; +54 3814039814</p>
+                    <div className='subtitleBlack' >
+                        <a href="https://api.whatsapp.com/send?phone=5493814039814&text=Hola Juan Pablo..." target='blank' className='linkContacto'>
+                            <p> <FaWhatsapp className='contactIcons'/>&nbsp; +54 3814039814</p>
+                        </a>
                     </div>
 
                 </div>
