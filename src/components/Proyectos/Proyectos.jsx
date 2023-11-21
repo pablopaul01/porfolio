@@ -3,7 +3,7 @@ import CardProject from '../CardProject/CardProject'
 
 const Proyectos = () => {
   return (
-    <div className='container-fluid my-5'>
+    <div className='container-fluid my-5' id='projects'>
         <div className="row">
             <div className='py-4 text-center'>
             <h2>Proyectos</h2>

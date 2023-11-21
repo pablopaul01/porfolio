@@ -4,10 +4,10 @@ import Button from 'react-bootstrap/esm/Button'
 const About = () => {
   return (
     <>
-        <div className='container py-5 my-3'>
+        <div className='container py-5 my-3' id='aboutMe'>
         <h2>Sobre Mi</h2>
             <div className="row d-flex justify-content-between">
-                <div className="col-5">
+                <div className="col-12 col-md-5">
 
                     <h4 className='pt-3'>¿Quien soy?</h4>
                     <h4>Soy Juan Pablo Salomón, Deasarrollador Web Fullstack</h4>
@@ -18,7 +18,7 @@ const About = () => {
                     </p>
                     <Button href='https://drive.google.com/file/d/1_SOCVBVeTFJuduZIw_Wy7Od3X5x0YMU-/view?usp=sharing' target='blank'>Descargar CV</Button>
                 </div>
-                <div className="col-5 d-flex flex-column justify-content-center">
+                <div className="col-12 col-md-5 d-flex flex-column justify-content-center mt-5 mt-md-0">
                     <h4>Mis Skills:</h4>
                     <div className='d-flex flex-wrap gap-2 justify-content-center mt-4'>
                         <div className='text-center'>

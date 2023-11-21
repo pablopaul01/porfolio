@@ -2,13 +2,13 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='hero-container d-flex align-items-center'>
+    <div className='hero-container d-flex align-items-center' id='hero'>
 
         <div className="container contentHero">
         
             <div className="row">
                 <div className="col d-flex justify-content-center align-items-center gap-5">
-                    <div className='imgMeContainer'>
+                    <div className='imgMeContainer  d-flex justify-content-center d-none d-md-block'>
                         <img className='imgMe' 
                         src="https://res.cloudinary.com/dcv6aut2v/image/upload/v1700311516/Porfolio/yo2_ia0ctt.png" alt="" />
                     </div>

@@ -4,11 +4,24 @@
     position: absolute;
     width: 100%;
     color: #fff;
+    font-weight: bold;
 }
 
 .itemLink {
     color: #fff;
 }
+
+.itemLink:hover {
+    color: var(--fern-400);
+}
+
+.itemLink:focus {
+    color: var(--fern-400);
+}
+.active {
+    color: var(--fern-400) !important;
+}
+
 .brackets {
     color: #52bc68;
     font-size: 30px;
