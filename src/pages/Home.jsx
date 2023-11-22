@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useRef} from 'react'
 import NavbarM from '../components/Navbar/Navbar'
 import Hero from '../components/Hero/Hero'
 import About from '../components/About/About'
@@ -12,10 +12,12 @@ const Home = () => {
   const [inHome, setInHome] = useState(false)
   const [currentSection, setCurrentSection] = useState(null);
 
+  const hiddenRef = useRef();
+
   useEffect(() => {
     const handleScroll = () => {
       // ... (el mismo código que proporcioné anteriormente para determinar la sección actual)
-      setCurrentSection(currentSection);
+      setCurrentSection('#hero');
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -34,7 +36,7 @@ const Home = () => {
       }
       
       }/>
-      <Hero/>
+      <Hero ref={hiddenRef}/>
       <About />
       <Servicios />
       <Proyectos />
