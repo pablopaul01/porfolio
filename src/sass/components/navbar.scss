@@ -19,7 +19,7 @@
     color: var(--fern-400);
 }
 .active {
-    color: var(--fern-400) !important;
+    color: #fff !important;
 }
 
 .brackets {
@@ -33,4 +33,8 @@
 
 .brackets:focus {
     color: var(--fern-400);
+}
+
+.desactive {
+    color: #fff;
 }

@@ -9,36 +9,20 @@ import Footer from '../components/Footer/Footer'
 import ScrollToTop from "react-scroll-to-top";
 
 const Home = () => {
-  const [inHome, setInHome] = useState(false)
-  const [currentSection, setCurrentSection] = useState(null);
 
-  const hiddenRef = useRef();
 
-  useEffect(() => {
-    const handleScroll = () => {
-      // ... (el mismo código que proporcioné anteriormente para determinar la sección actual)
-      setCurrentSection('#hero');
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, [currentSection]);
   return (
     <>
-      <NavbarM currentSection={currentSection}/>
+      <NavbarM />
       <ScrollToTop smooth onClick={()=>
        { 
         location.replace(`#hero`)
-        setCurrentSection("#hero")
       }
       
       }/>
-      <Hero ref={hiddenRef}/>
+      <Hero />
       <About />
-      <Servicios />
+      <Servicios/>
       <Proyectos />
       <Contacto />
       <Footer />

@@ -1,13 +1,15 @@
 import React from 'react'
 import Button from 'react-bootstrap/esm/Button'
 
+
 const About = () => {
+
   return (
     <>
         <div className='container py-5 my-3' id='aboutMe'>
         <h2>Sobre Mi</h2>
             <div className="row d-flex justify-content-between">
-                <div className="col-12 col-md-5">
+                <div className="col-12 col-md-5" >
 
                     <h4 className='pt-3'>¿Quien soy?</h4>
                     <h4>Soy Juan Pablo Salomón, Deasarrollador Web Fullstack</h4>

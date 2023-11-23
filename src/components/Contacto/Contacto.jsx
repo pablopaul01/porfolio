@@ -51,7 +51,7 @@ const Contacto = () => {
                 <h2>Contactame</h2>
                 <h5 className='subtitleBlack mb-5'>Si quieres contactarme puedes completar el formulario</h5>
                 <div className="col-12 col-md-6">
-                    <Form ref={form} onSubmit={handleSubmit(onSubmit)} className="d-flex flex-column gap-3 pe-5 w-lg-75">
+                    <Form ref={form} onSubmit={handleSubmit(onSubmit)} className="d-flex flex-column gap-3 pe-5 w-lg-75 ps-5 ps-md-0">
                         <Row className="d-flex justify-content-between">
                             <Col className="p-0">
                                 <Form.Control
