@@ -99,21 +99,21 @@ const Contacto = () => {
                         </Row>
                     </Form>
                 </div>
-                <div className="mt-5 mt-md-0 col-12 col-md-4 d-flex flex-column justify-content-start">
-                    <h5 className='mb-4'>Otros medios de contacto:</h5>
+                <div className="mt-5 mt-md-0 col-12 col-md-4 d-flex flex-column justify-content-center justify-content-md-start">
+                    <h5 className='mb-4 text-center text-md-start'>Otros medios de contacto:</h5>
                     <div className='subtitleBlack'>
                         <a href="https://www.linkedin.com/in/juanpablosalomon/" target='blank' className='linkContacto'>
-                            <p><FaLinkedin className='contactIcons'/>&nbsp; /juanpablosalomon</p>
+                            <p className="text-center text-md-start"><FaLinkedin className='contactIcons'/>&nbsp; /juanpablosalomon</p>
                         </a>
                     </div>
                     <div className='subtitleBlack'>
                         <a href="mailto:juanpablosalomon@gmail.com" target='blank' className='linkContacto'>
-                            <p><MdEmail className='contactIcons'/>&nbsp; juanpablosalomon@gmail.com</p>
+                            <p className="text-center text-md-start"><MdEmail className='contactIcons'/>&nbsp; juanpablosalomon@gmail.com</p>
                         </a>
                     </div>
                     <div className='subtitleBlack' >
                         <a href="https://api.whatsapp.com/send?phone=5493814039814&text=Hola Juan Pablo..." target='blank' className='linkContacto'>
-                            <p> <FaWhatsapp className='contactIcons'/>&nbsp; +54 3814039814</p>
+                            <p className="text-center text-md-start"> <FaWhatsapp className='contactIcons'/>&nbsp; +54 3814039814</p>
                         </a>
                     </div>
 
