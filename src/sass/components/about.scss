@@ -1,0 +1,35 @@
+.container-imgAboutMe {
+    background: url("https://res.cloudinary.com/dcv6aut2v/image/upload/v1708566447/programando_oap2sy.jpg");
+    background-size: cover;
+    box-shadow: -88px -2px 44px -1px rgba(255,255,255,1) inset;
+    -webkit-box-shadow: -88px -2px 44px -1px rgba(255,255,255,1) inset;
+    -moz-box-shadow: -88px -2px 44px -1px rgba(255,255,255,1) inset;
+}
+
+.imgAboutMe {
+    width: 100%;
+    transform: scaleX(-1);
+
+}
+
+
+.subrayado {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.subrayado::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 50%;
+    background-color:#52bc68;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    top: 40px
+    // margin-top: -8px;
+
+  }

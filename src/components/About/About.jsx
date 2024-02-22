@@ -6,21 +6,28 @@ const About = () => {
 
   return (
     <>
-        <div className='container py-5 my-3' id='aboutMe'>
-        <h2>Sobre Mi</h2>
-            <div className="row d-flex justify-content-between">
-                <div className="col-12 col-md-5" >
-
-                    <h4 className='pt-3'>¿Quien soy?</h4>
-                    <h4>Soy Juan Pablo Salomón, Deasarrollador Web Fullstack</h4>
-                    <p className='mt-4'>
-                        Soy un apasionado del mundo de la tecnología y la programación, con una insaciable sed de conocimiento y una profunda pasión por los desafíos que presenta el mundo IT. Como autodidacta, disfruto explorando nuevas tecnologías y abordando problemas complejos, viendo cómo las ideas se convierten en proyectos tangibles.<br/><br/>
-
-                        Me gusta colaborar y trabajar en equipo. Tengo una gran habilidad de comunicación. Estoy en busqueda de un trabajo de tiempo completo como desarrollador web, donde pueda aplicar mis conocimientos y habilidades para continuar creciedo como programador
-                    </p>
-                    <Button href='https://drive.google.com/file/d/1_SOCVBVeTFJuduZIw_Wy7Od3X5x0YMU-/view?usp=sharing' target='blank'>Descargar CV</Button>
+        <div className='container-fluid py-5 my-3' id='aboutMe'>
+            <div className="row justify-content-center">
+                <div className="col-2 text-center">
+                    <h2 className='subrayado'>Sobre Mi</h2>
                 </div>
-                <div className="col-12 col-md-5 d-flex flex-column justify-content-center mt-5 mt-md-0">
+            </div>
+            <div className="row d-flex mt-5" 
+            data-aos="fade-in">
+            <div className="col-5 container-imgAboutMe">
+                </div>
+                <div className="col-12 col-md-6" >
+                    <div className='pb-5'>
+                        <h4 className='pt-3'>¿Quien soy?</h4>
+                        <h4>Soy Juan Pablo Salomón, Deasarrollador Web Fullstack</h4>
+                        <p className='mt-4'>
+                            Soy un apasionado del mundo de la tecnología y la programación, con una insaciable sed de conocimiento y una profunda pasión por los desafíos que presenta el mundo IT. Como autodidacta, disfruto explorando nuevas tecnologías y abordando problemas complejos, viendo cómo las ideas se convierten en proyectos tangibles.<br/><br/>
+
+                            Me gusta colaborar y trabajar en equipo. Tengo una gran habilidad de comunicación. Estoy en busqueda de un trabajo de tiempo completo como desarrollador web, donde pueda aplicar mis conocimientos y habilidades para continuar creciedo como programador
+                        </p>
+                        <Button href='https://drive.google.com/file/d/1_SOCVBVeTFJuduZIw_Wy7Od3X5x0YMU-/view?usp=sharing' target='blank'>Descargar CV</Button>
+                    </div>
+                    <div className='mt-5'>
                     <h4>Mis Skills:</h4>
                     <div className='d-flex flex-wrap gap-2 justify-content-center mt-4'>
                         <div className='text-center'>
@@ -52,6 +59,10 @@ const About = () => {
                             <p>MONGODB</p>
                         </div>
                     </div>
+                    </div>
+                </div>
+                <div className="col-12 col-md-4 d-flex flex-column justify-content-center mt-5 mt-md-0">
+                    
                 </div>
             </div>
         </div>

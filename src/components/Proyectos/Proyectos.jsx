@@ -4,11 +4,17 @@ import CardProject from '../CardProject/CardProject'
 const Proyectos = () => {
   return (
     <div className='container-fluid my-5' id='projects'>
-        <div className="row">
-            <div className='py-4 text-center'>
-            <h2>Proyectos</h2>
-            <h5>Aqui puedes ver algunos de los proyectos en los que trabajé</h5>
+        <div className="row justify-content-center">
+            <div className='col-2 py-4 text-center'>
+                <h2 className='subrayado'>Proyectos</h2>
             </div>
+        </div>
+        <div className="row justify-content-center">
+            <div className="col">
+            <h5 className='text-center'>Aqui puedes ver algunos de los proyectos en los que trabajé</h5>
+            </div>
+        </div>
+        <div className="row">
             <div className="col d-flex justify-content-around py-5 flex-wrap gap-3">
 
             <CardProject 
