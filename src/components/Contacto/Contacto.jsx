@@ -46,10 +46,10 @@ const Contacto = () => {
 
   return (
     <div className='contactoContainer py-5' id='contact'>
-        <div className='container'>
-            <div className="row">
-                <h2>Contactame</h2>
-                <h5 className='subtitleBlack mb-5'>Si quieres contactarme puedes completar el formulario</h5>
+        <div className='container mb-5'>
+            <div className="row justify-content-center">
+                <h2 className='text-center'>Contactame</h2>
+                <h5 className='subtitleBlack mb-5 text-center'>Si quieres contactarme puedes completar el formulario</h5>
                 <div className="col-12 col-md-6">
                     <Form ref={form} onSubmit={handleSubmit(onSubmit)} className="d-flex flex-column gap-3 pe-5 w-lg-75 ps-5 ps-md-0">
                         <Row className="d-flex justify-content-between">
@@ -99,7 +99,7 @@ const Contacto = () => {
                         </Row>
                     </Form>
                 </div>
-                <div className="mt-5 mt-md-0 col-12 col-md-6 d-flex flex-column justify-content-start">
+                <div className="mt-5 mt-md-0 col-12 col-md-4 d-flex flex-column justify-content-start">
                     <h5 className='mb-4'>Otros medios de contacto:</h5>
                     <div className='subtitleBlack'>
                         <a href="https://www.linkedin.com/in/juanpablosalomon/" target='blank' className='linkContacto'>

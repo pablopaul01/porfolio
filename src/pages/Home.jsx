@@ -21,10 +21,19 @@ const Home = () => {
       
       }/>
       <Hero />
-      <About />
-      <Servicios/>
+      {/* <section class="curved"></section> */}
       <Proyectos />
+      <section className="divider-container">
+        <div class="skewedR"></div>
+      </section>
+      <Servicios/>
+      <section className="divider-container">
+        <div class="skewed"></div>
+      </section>
+      <About />
+      <div class="wave-container"></div>
       <Contacto />
+
       <Footer />
     </>
   )
