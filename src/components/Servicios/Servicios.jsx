@@ -9,8 +9,8 @@ const Servicios = () => {
   return (
     <section className='px-5 pt-5 servicesContainer' id='services'>
         <div className='container pt-3'>
-            <h2 className='titleServices'>Servicios</h2>
-            <h5>Servicios que ofrezco a mis clientes</h5>
+            <h2 className='titleServices text-center'>Servicios</h2>
+            <h5 className='text-center'>Servicios que ofrezco a mis clientes</h5>
             <div className="row">
                     <div className="col d-flex gap-4 py-5 flex-wrap justify-content-center">
                         <div className='text-center cardServices'>

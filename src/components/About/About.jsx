@@ -8,7 +8,7 @@ const About = () => {
     <>
         <div className='container-fluid py-5 my-3' id='aboutMe'>
             <div className="row justify-content-center">
-                <div className="col-2 text-center">
+                <div className="col-4 col-md-2 text-center">
                     <h2 className='subrayado'>Sobre Mi</h2>
                 </div>
             </div>

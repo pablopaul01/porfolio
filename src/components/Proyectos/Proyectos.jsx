@@ -5,7 +5,7 @@ const Proyectos = () => {
   return (
     <div className='container-fluid my-5' id='projects'>
         <div className="row justify-content-center">
-            <div className='col-2 py-4 text-center'>
+            <div className='col-4 col-md-2 py-4 text-center'>
                 <h2 className='subrayado'>Proyectos</h2>
             </div>
         </div>
