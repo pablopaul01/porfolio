@@ -24,7 +24,13 @@ const Hero = () => {
                         <img className='imgMe' 
                         src="https://res.cloudinary.com/dcv6aut2v/image/upload/v1708554384/yo_profile_tqhkbz.jpg" alt="" />
                     </div>
-                    <div className='text-center' data-aos="fade-left">
+                    <div className='text-center' 
+                    data-aos="fade-left"
+                    data-aos-offset="200" 
+                    data-aos-easing="ease-in-out"
+                    data-aos-mirror="true"
+                    data-aos-delay="200"
+                    data-aos-once="false">
                         <h2 className='mb-0 saludo'>Hola!</h2>
                         <h1 className='myName mb-0'>Soy Juan Pablo Salomón</h1>
                         <p className='secondaryText'>Fullstack Web Developer</p>
