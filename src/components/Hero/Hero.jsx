@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="container contentHero">
         
             <div className="row">
-                <div className="col d-flex justify-content-center align-items-center gap-5"   >
+                <div className="col-12 d-flex justify-content-center align-items-center gap-5"   >
                     <div className='imgMeContainer  d-flex justify-content-center d-none d-md-block' 
                     data-aos="fade-right"  
                     data-aos-offset="200" 
@@ -25,7 +25,7 @@ const Hero = () => {
                         src="https://res.cloudinary.com/dcv6aut2v/image/upload/v1708554384/yo_profile_tqhkbz.jpg" alt="" />
                     </div>
                     <div className='text-center' 
-                    data-aos="fade-left"
+                    data-aos="fade-up"
                     data-aos-offset="200" 
                     data-aos-easing="ease-in-out"
                     data-aos-mirror="true"
