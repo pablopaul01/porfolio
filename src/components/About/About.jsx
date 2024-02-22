@@ -13,7 +13,12 @@ const About = () => {
                 </div>
             </div>
             <div className="row d-flex mt-5" 
-            data-aos="fade-in">
+            data-aos="fade-in"
+            data-aos-offset="200" 
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-delay="200"
+            data-aos-once="false">
             <div className="col-5 container-imgAboutMe">
                 </div>
                 <div className="col-12 col-md-6" >
