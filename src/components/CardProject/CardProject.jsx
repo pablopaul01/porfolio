@@ -4,7 +4,14 @@ import Card from 'react-bootstrap/Card';
 
 const CardProject = ({title, text, site, repo, img}) => {
   return (
-    <Card style={{ width: '30rem' }} className='px-0'>
+    <Card 
+    style={{ width: '30rem' }} className='px-0'
+    data-aos="zoom-in"
+            data-aos-offset="200" 
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-delay="200"
+            data-aos-once="false">
     <Card.Img variant="top" src={img} />
     <Card.Body>
       <Card.Title>{title}</Card.Title>
