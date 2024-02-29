@@ -9,9 +9,7 @@ const Hero = () => {
 
   return (
     <div className='hero-container d-flex align-items-center' id='hero'>
-
         <div className="container contentHero">
-        
             <div className="row">
                 <div className="col-12 d-flex justify-content-center align-items-center gap-5"   >
                     <div className='imgMeContainer  d-flex justify-content-center d-none d-md-block' 
