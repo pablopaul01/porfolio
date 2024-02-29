@@ -20,3 +20,10 @@
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.iconServices:hover {
+    cursor: pointer;
+    scale: 1.2;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1500ms;
+}
