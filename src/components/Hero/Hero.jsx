@@ -1,6 +1,9 @@
 import React from 'react'
 import Aos from 'aos'
 import { useEffect } from 'react'
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { MdEmail } from 'react-icons/md';
 
 const Hero = () => {
     useEffect(  () => {
@@ -11,8 +14,8 @@ const Hero = () => {
     <div className='hero-container d-flex align-items-center' id='hero'>
         <div className="container contentHero">
             <div className="row">
-                <div className="col-12 d-flex justify-content-center align-items-center gap-5"   >
-                    <div className='imgMeContainer  d-flex justify-content-center d-none d-md-block' 
+                <div className="col-12 d-flex flex-column flex-md-row justify-content-center align-items-center gap-5"   >
+                    <div className='imgMeContainer flex-column flex-md-row d-flex justify-content-center ' 
                     data-aos="fade-right"  
                     data-aos-offset="200" 
                     data-aos-easing="ease-in-out"
@@ -32,6 +35,14 @@ const Hero = () => {
                         <h2 className='mb-0 saludo'>Hola!</h2>
                         <h1 className='myName mb-0'>Soy Juan Pablo Salomón</h1>
                         <p className='secondaryText'>Fullstack Web Developer</p>
+                        <div className='d-flex justify-content-center gap-3'>
+                            <a href="href='https://github.com/pablopaul01'" target='blank'>
+                                <FaGithub className='iconsHero'/>
+                            </a>
+                            <a href="https://www.linkedin.com/in/juanpablosalomon/" target='blank'>
+                                <FaLinkedin className='iconsHero'/>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
