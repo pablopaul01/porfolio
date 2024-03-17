@@ -10,22 +10,22 @@ const Modal = ({ project, closeModal }) => {
       onClick={closeModal}
     >
       <motion.div
+                    initial={{
+                      opacity: 0,
+                      y: 50,
+                    }}
+                    animate={{
+                      opacity: 1,
+                      y: 0,
+                    }}
+                    transition={{
+                      duration: 0.4,
+                    }}
         className='modal-dialog modal-dialog-centered modal-xl'
       >
         <motion.div className='modal-content'       layoutId={`card_${project.title}`}>
             <motion.img src={project.img} alt="" className='w-100'         />
           <motion.div 
-                    initial={{
-                        opacity: 0,
-                        y: 50,
-                      }}
-                      animate={{
-                        opacity: 1,
-                        y: 0,
-                      }}
-                      transition={{
-                        duration: 0.9,
-                      }}
           className='modal-body' >
             <div className='d-flex flex-column gap-3'>
                 <h1 className='modal-title fs-5'>{project.title}</h1>
