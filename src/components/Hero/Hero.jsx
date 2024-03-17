@@ -12,7 +12,7 @@ const Hero = () => {
 
   return (
     <div className='hero-container d-flex align-items-center' id='hero'>
-        <div className="container contentHero">
+        <div className="container contentHero pt-5 pt-md-0">
             <div className="row">
                 <div className="col-12 d-flex flex-column flex-md-row justify-content-center align-items-center gap-5"   >
                     <div className='imgMeContainer flex-column flex-md-row d-flex justify-content-center ' 

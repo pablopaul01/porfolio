@@ -47,3 +47,41 @@
 .iconsHero:hover {
     scale: 1.1;
 }
+
+@media only screen and (max-width: 992px){
+    .card-container {
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .imgMe {
+        width: 220px;
+    }
+    
+    .imgMeContainer {
+        width: 220px;
+        height: 220px;
+        min-height: 220px;
+        background-color: #fff;
+        border-radius: 50% 50%;
+        overflow: hidden;
+        box-shadow: -1px 9px 27px 4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 9px 27px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 27px 4px rgba(0,0,0,0.75);
+    }
+    
+    .secondaryText {
+        color: #000;
+        font-size: 18px;
+    }
+    
+    .myName {
+        font-size: 35px;
+    }
+    
+    .saludo {
+        color: #000;
+        font-size: 30px;
+        font-weight: bold;
+    }
+}

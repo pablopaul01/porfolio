@@ -5,9 +5,9 @@ import { motion } from "framer-motion"
 
 const CardProject = ({title, text, site, repo, img, openModal}) => {
   return (
-    <motion.div layoutId={`card_${title}`} >
+    <motion.div layoutId={`card_${title}`} className='card-container'>
       <Card 
-      style={{ width: '30rem', minHeight:'450px'}} className='px-0'
+       className='px-0 card-project'
       data-aos="zoom-in"
               data-aos-offset="200" 
               data-aos-easing="ease-in-out"
