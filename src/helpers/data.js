@@ -1,5 +1,18 @@
 export const proyectos = [
     {
+        title: 'Divishare',
+        text:' Aplicativo web que nos sirve como herramientas para la división de gastos, por ejemplo para una juntada entre amigos',
+        site:'https://luisisaderbake.netlify.app/',
+        img:'https://res.cloudinary.com/dcv6aut2v/image/upload/v1711023836/Porfolio/divisharew_zxdd0j.jpg',
+        alcance: `La aplicación es una herramienta que ayuda a registrar los gastos de un evento en concreto, agregar los participantes y nos brinda sobre la division de los gastos y las cuentas a pagar.
+        Permite crear una cuenta sin necesidad de registrarse. La cuenta será accesible durante 10 días desde la última vez que alguien la utilizó.
+        Puedes generar dos tipos de usuarios: administradores (que pueden crear/editar/borrar todos los elementos de la cuenta) y lectores (que no pueden hacer modificaciones pero pueden ver todos los detalles de la cuenta).
+        Hemos implementado la funcionalidad de asignar responsable para evitar que las transferencias tengan que hacerse entre personas fuera del grupo que, como invitados de alguien, necesitan compartir gastos.`,
+        tecnologiasFront: `HTML, CSS, TAILWINDCSS, DAISYUI, JAVASCRIPT, REACT JS, REDUX. (Dependencias
+            utilizadas: Framer Motion, i18Next, React Router Dom, React Icons, Sonner, React Select, React Swiper, Socket.io, Axios, ).`,
+        tecnologiasBack: `NODE, EXPRESS, MONGODB, MONGOOSE, CORS, DOTENV, EXPRESS-VALIDATOR, JUST-CLONE. SHORT-UUID, SOCKET.IO.`
+    },
+    {
         title: 'Luis Isa Derbake',
         text:' Aplicativo web que permite la administración de usuarios y la reproducción de canciones asignadas a cada uno.',
         site:'https://luisisaderbake.netlify.app/',
@@ -14,10 +27,7 @@ export const proyectos = [
         tecnologiasFront: `HTML, CSS, BOOTSTRAP, JAVASCRIPT, REACT JS, CONTEXT. (Dependencias
             utilizadas: Jwt Decode, React Hook Form, React Data Table, React Icons, Sweetalert2.
             Wavesurfer.js, Yup, Axios, ).`,
-        tecnologiasBack: `HTML, CSS, BOOTSTRAP, JAVASCRIPT, REACT JS, CONTEXT. (Dependencias
-            utilizadas: Jwt Decode, React Hook Form, React Data Table, React Icons, Sweetalert2.
-            Wavesurfer.js, Yup, Axios, ).
-            `
+        tecnologiasBack: `NODEJS, EXPRESS, MONGODB.(Dependencias usadas: Jsonwebtoken,Multer, passport-jwt, Cloudinary, Bcrypt, Dotenv, Morgan, Mongoose, Nodemon).`
     },
     {
         title: 'Rolling Hotel',
