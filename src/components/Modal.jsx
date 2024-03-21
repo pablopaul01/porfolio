@@ -7,7 +7,7 @@ const Modal = ({ project, closeModal }) => {
     <div
       className='modal fade show'
       style={{ display: 'block', backgroundColor: 'rgba(0,0,0,0.5)' }}
-      onClick={closeModal}
+      // onClick={closeModal}
     >
       <motion.div
                     initial={{
