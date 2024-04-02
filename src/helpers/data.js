@@ -1,7 +1,18 @@
 export const proyectos = [
     {
+        title: 'Gimnasia Militar Lomas',
+        text:'Aplicativo web para la gestión y administración de un gimansio y sus miembros',
+        site:'https://gimnasiamilitarlomas.netlify.app/',
+        repo:'https://github.com/pablopaul01/Gym-System',
+        img:'https://res.cloudinary.com/dcv6aut2v/image/upload/v1712018509/Porfolio/gml-home_zjfato.jpg',
+        alcance: `Aplicación web para la gestión de un gimansio y sus miembros. El mismo permite agregar los alumnos y cargar los pagos correspondientes.
+        El sistema permite hacer un seguimiento de los vencimientos, registro y control de pagos de los alumnos que son miembros. Además, ofrece un reporte de los ingresos del mes e información relevante sobre cantidad de alumnos, alumnos activos, alumnos con vencimientos y vencidos en el corriente mes.`,
+        tecnologiasFront: `HTML, CSS, TAILWIND, DAISYUI, JAVASCRIPT, REACT JS, REDUX. (Dependencias utilizadas: Jwt Decode, React Hook Form, React Data Table, React Icons, Sonner. MomentJs, Yup,  Axios, ).`,
+        tecnologiasBack: `NODE JS, EXPRESS JS, MONGODB, MONGOOSE. (Dependecias utilizadas: Cors, Jwt, Passport, Multer, Cloudinary Api, Bcrypt, Nodemailer).`
+    },
+    {
         title: 'Divishare',
-        text:' Aplicativo web que nos sirve como herramientas para la división de gastos, por ejemplo para una juntada entre amigos',
+        text:'Aplicativo web que nos sirve como herramientas para la división de gastos, por ejemplo para una juntada entre amigos',
         site:'https://luisisaderbake.netlify.app/',
         img:'https://res.cloudinary.com/dcv6aut2v/image/upload/v1711023836/Porfolio/divisharew_zxdd0j.jpg',
         alcance: `La aplicación es una herramienta que ayuda a registrar los gastos de un evento en concreto, agregar los participantes y nos brinda sobre la division de los gastos y las cuentas a pagar.

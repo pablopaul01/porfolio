@@ -46,7 +46,7 @@ const Contacto = () => {
 
   return (
     <div className='contactoContainer py-5' id='contact'>
-        <div className='container mb-5'>
+        <div className='container mb-5 mt-5 pb-2'>
             <div className="row justify-content-center">
                 <h2 className='text-center'>Contactame</h2>
                 <h5 className='subtitleBlack mb-5 text-center'>Si quieres contactarme puedes completar el formulario</h5>

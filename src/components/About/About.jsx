@@ -30,7 +30,7 @@ const About = () => {
 
                             Me gusta colaborar y trabajar en equipo. Tengo una gran habilidad de comunicación. Estoy en busqueda de un trabajo de tiempo completo como desarrollador web, donde pueda aplicar mis conocimientos y habilidades para continuar creciedo como programador
                         </p>
-                        <Button variant="dark" href='https://drive.google.com/file/d/19OR72mWcmeIDYFrmkxJhQlwYiCDb0FIu/view?usp=sharing' target='blank'>Descargar CV</Button>
+                        <Button variant="dark" href='https://drive.google.com/file/d/1xBcbZYM2RF4Ts_J5JTRYJIOMFz33jgO2/view?usp=sharing' target='blank'>Descargar CV</Button>
                     </div>
                     <div className='mt-5'>
                     <h4>Mis Skills:</h4>
