@@ -1,9 +1,7 @@
-import React from 'react'
 import Aos from 'aos'
 import { useEffect } from 'react'
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { MdEmail } from 'react-icons/md';
 
 const Hero = () => {
     useEffect(  () => {
@@ -36,7 +34,7 @@ const Hero = () => {
                         <h1 className='myName mb-0'>Soy Juan Pablo Salomón</h1>
                         <p className='secondaryText'>Fullstack Web Developer</p>
                         <div className='d-flex justify-content-center gap-3'>
-                            <a href="href='https://github.com/pablopaul01'" target='blank'>
+                            <a href='https://github.com/pablopaul01' target='blank'>
                                 <FaGithub className='iconsHero'/>
                             </a>
                             <a href="https://www.linkedin.com/in/juanpablosalomon/" target='blank'>
