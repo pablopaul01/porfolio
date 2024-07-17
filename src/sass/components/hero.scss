@@ -12,6 +12,14 @@
     height: 115%;
 }
 
+@media only screen and (max-width: 768px){
+    .imgMe {
+        height: 110%;
+        position: absolute;
+        top: 0;
+    }
+}
+
 .imgMeContainer {
     width: 280px;
     height: 280px;

@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useRef} from 'react'
+
 import NavbarM from '../components/Navbar/Navbar'
 import Hero from '../components/Hero/Hero'
 import About from '../components/About/About'
@@ -24,14 +24,14 @@ const Home = () => {
       {/* <section class="curved"></section> */}
       <Proyectos />
       <section className="divider-container">
-        <div class="skewedR"></div>
+        <div className="skewedR"></div>
       </section>
       <Servicios/>
       <section className="divider-container">
-        <div class="skewed"></div>
+        <div className="skewed"></div>
       </section>
       <About />
-      <div class="wave-container"></div>
+      <div className="wave-container"></div>
       <Contacto />
 
       <Footer />

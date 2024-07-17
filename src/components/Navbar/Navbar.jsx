@@ -1,13 +1,12 @@
-import React from 'react'
+
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const NavbarM = ({currentSection}) => {
   return (
-    <Navbar expand="lg" className="navMenu" >
+    <Navbar expand="lg" className="navMenu sticky-top" >
     <Container>
       <Navbar.Brand href="#home" className='brackets'>
         &lt; <span className='itemLink'>JPS</span> /&gt;</Navbar.Brand>
