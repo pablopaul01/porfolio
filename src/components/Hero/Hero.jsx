@@ -2,6 +2,7 @@ import Aos from 'aos'
 import { useEffect } from 'react'
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import meImg from '../../../public/sinFondo.png'
 
 const Hero = () => {
     useEffect(  () => {
@@ -21,7 +22,7 @@ const Hero = () => {
                     data-aos-delay="200"
                     data-aos-once="false">
                         <img className='imgMe' 
-                        src="https://res.cloudinary.com/dcv6aut2v/image/upload/v1708554384/yo_profile_tqhkbz.jpg" alt="" />
+                        src={meImg} alt="ImgOfMe" />
                     </div>
                     <div className='text-center' 
                     data-aos="fade-up"

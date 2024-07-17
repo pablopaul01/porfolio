@@ -1,4 +1,3 @@
-import React from 'react'
 import Button from 'react-bootstrap/esm/Button'
 
 
@@ -30,7 +29,7 @@ const About = () => {
 
                             Me gusta colaborar y trabajar en equipo. Tengo una gran habilidad de comunicación. Estoy en busqueda de un trabajo de tiempo completo como desarrollador web, donde pueda aplicar mis conocimientos y habilidades para continuar creciedo como programador
                         </p>
-                        <Button variant="dark" href='https://drive.google.com/file/d/1xBcbZYM2RF4Ts_J5JTRYJIOMFz33jgO2/view?usp=sharing' target='blank'>Descargar CV</Button>
+                        <Button variant="dark" href='https://drive.google.com/file/d/1p8DcmmVv9UGhvVj4CPVnjELEtEjTRJA_/view?usp=sharing' target='blank'>Descargar CV</Button>
                     </div>
                     <div className='mt-5'>
                     <h4>Mis Skills:</h4>
@@ -44,12 +43,24 @@ const About = () => {
                             <p>CSS</p>
                         </div>
                         <div className='text-center'>
+                            <img className='w-50' src="https://res.cloudinary.com/dcv6aut2v/image/upload/v1721187807/Porfolio/icons8-viento-de-cola-css-96_wlte44.png" alt="Tailwind" />
+                            <p>TAILWIND CSS</p>
+                        </div>
+                        <div className='text-center'>
                             <img className='w-50' src="https://res.cloudinary.com/dcv6aut2v/image/upload/v1700316292/Porfolio/icons8-javascript-100_vdwv11.png" alt="html" />
                             <p>JAVASCRIPT</p>
                         </div>
                         <div className='text-center'>
                             <img className='w-50' src="https://res.cloudinary.com/dcv6aut2v/image/upload/v1700316294/Porfolio/icons8-react-a-javascript-library-for-building-user-interfaces-100_kuv4ej.png" alt="html" />
                             <p>REACT</p>
+                        </div> 
+                        <div className='text-center'>
+                            <img className='w-50' src="https://res.cloudinary.com/dcv6aut2v/image/upload/v1721187726/Porfolio/icons8-redux-96_hdq9sl.png" alt="Redux" />
+                            <p>REDUX</p>
+                        </div> 
+                        <div className='text-center'>
+                            <img className='w-50' src="https://res.cloudinary.com/dcv6aut2v/image/upload/v1721187583/Porfolio/icons8-siguientejs-96_qbl0q1.png" alt="NextJs" />
+                            <p>NEXTJS</p>
                         </div> 
                         <div className='text-center'>
                             <img className='w-50' src="https://res.cloudinary.com/dcv6aut2v/image/upload/v1700316293/Porfolio/icons8-nodejs-100_brz2xm.png" alt="html" />
